@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Secanggkir Kopi</title>
+    <title>Cahaya Musik</title>
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -14,43 +14,104 @@
       rel="stylesheet"
     />
 
+    <!-- bootstrap -->
+     
+     
     <!-- featers icon -->
     <script src="https://unpkg.com/feather-icons"></script>
 
     <!-- my style css -->
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style2.css" />
   </head>
 
   <body>
     <!-- navbar start -->
     <nav class="navbar">
-      <a href="#" class="navbar-logo">kenangan<span>senja</span>.</a>
+      <a href="#" class="navbar-logo">Cahaya<span>Musik</span>.</a>
 
       <div class="navbar-nav">
         <a href="#">Home</a>
         <a href="#about">Tentang Kami</a>
-        <a href="#menu">Menu</a>
+        <a href="#menu">Our Service</a>
+        <a href="#ourgallery">Our Gallery</a>
         <a href="#contact">Kontak</a>
       </div>
 
       <div class="navbar-extra">
-        <a href="#" id="search"><i data-feather="search"></i></a>
-        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart-button"
+          ><i data-feather="shopping-cart"></i
+        ></a>
         <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
       </div>
+
+      <!-- Search Form STart -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here.." />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <!-- Search Form End -->
+
+      <!-- shopping cart start -->
+      <div class="shopping-cart">
+        <div class="cart-item">
+          <img src="img/product/product_1.jpg" alt="Product 1" />
+          <div class="item-detail">
+            <h3>Product 1</h3>
+            <div class="item-price">IDR 30k</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/product/product_1.jpg" alt="Product 1" />
+          <div class="item-detail">
+            <h3>Product 1</h3>
+            <div class="item-price">IDR 30k</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/product/product_1.jpg" alt="Product 1" />
+          <div class="item-detail">
+            <h3>Product 1</h3>
+            <div class="item-price">IDR 30k</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+      </div>
+      <!-- shopping cart end -->
     </nav>
     <!-- navbar end -->
 
     <!-- Hero Section Start-->
-    <section class="hero" id="home">
-      <main class="content">
-        <h1>Mari Nikmati Secangkir <span>Kopi</span></h1>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus eum .
-        </p>
-        <a href="#" class="cta">Beli Sekarang</a>
-      </main>
-    </section>
+    <section class="hero">
+        <div class="slides">
+          <span id="slide-1"></span>
+          <span id="slide-2"></span>
+          <span id="slide-3"></span>
+          <span id="slide-4"></span>
+  
+            <img src="img/grup3.png" alt="" />
+            <img src="img/Banner1.png" alt="" />
+            <img src="img/Banner3.png" alt="" />
+            <img src="img/grup3.png" alt="" />
+        </div>
+
+        <!-- Previous and Next buttons -->
+      <button class="nav-button prev" id="prev-slide">&#10094;</button>
+      <button class="nav-button next" id="next-slide">&#10095;</button>
+
+      
+        <!-- navigation start -->
+        <div class="navigation">
+          <a href="#slide-1" class="nav-dot" data-slide="1"></a>
+          <a href="#slide-2" class="nav-dot" data-slide="2"></a>
+          <a href="#slide-3" class="nav-dot" data-slide="3"></a>
+          <a href="#slide-4" class="nav-dot" data-slide="4"></a>
+        </div>
+        <!-- navigation end -->
+      </section>
     <!-- Hero Section end-->
 
     <!-- about section start -->
@@ -59,19 +120,15 @@
 
       <div class="row">
         <div class="about-img">
-          <img src="img/tentang-kami.jpg" alt="Tentang Kami" />
+          <img src="img/aboutUs.jpg" alt="Tentang Kami" />
         </div>
         <div class="content">
-          <h3>Kenapa Harus Memilih Kopi Kami?</h3>
+          <h3>Tentang Cahaya Musik</h3>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad
-            exercitationem,
+            Sejak berdiri pada tahun 2012, Cahaya Musik telah menjadi penyedia layanan sewa peralatan musik dan event yang terpercaya di Bekasi. Kami menyediakan berbagai macam kebutuhan untuk mendukung acara Anda, mulai dari sound system, lighting, panggung, hingga genset. Selain itu, kami juga menawarkan sewa alat band berkualitas untuk memenuhi kebutuhan pertunjukan musik profesional.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, ea?
-            Enim, deserunt! Laboriosam dolorem laudantium sunt ad unde, dolor
-            accusamus voluptate cum doloribus animi nemo, perferendis, error
-            amet nihil iste!
+            kami memiliki layanan orkes dangdut yang dapat Anda pilih sesuai kebutuhan, baik dalam format full dangdut maupun semi full dangdut. Kami menawarkan harga yang kompetitif tanpa biaya tersembunyi, sehingga Anda mendapatkan layanan terbaik sesuai dengan anggaran yang Anda miliki..
           </p>
         </div>
       </div>
@@ -80,47 +137,336 @@
 
     <!-- Menu Section Start -->
     <section id="menu" class="menu">
-      <h2><span>Menu </span>Kami</h2>
+      <h2><span>Layanan </span>Kami</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, error?
-        Laborum cupiditate veritatis libero molestiae?
+       Kami Menyediakan Beberapa Produk Yang Bisa Anda Pilih Sesuai Dengan Kebutuhan Acara Ataupun Event Anda
       </p>
 
-      <div class="row">
+      <!-- <div class="row">
         <div class="menu-card">
-          <img src="img/menu/1.jpg" alt="Espresso" class="menu-card-img" />
-          <h3 class="menu-card-title">- Espresso -</h3>
+          <img src="img/menu/5.jpg" alt="Espresso" class="menu-card-img" />
+          <h3 class="menu-card-title">- Sound System & Mixer -</h3>
+          <p class="menu-card-price">IDR 20k</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/3.jpg" alt="Espresso" class="menu-card-img" />
+          <h3 class="menu-card-title">- Lighting -</h3>
           <p class="menu-card-price">IDR 20k</p>
         </div>
         <div class="menu-card">
           <img src="img/menu/1.jpg" alt="Espresso" class="menu-card-img" />
-          <h3 class="menu-card-title">- Espresso -</h3>
+          <h3 class="menu-card-title">- Genset -</h3>
+          <p class="menu-card-price">IDR 20k</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/4.jpg" alt="Espresso" class="menu-card-img" />
+          <h3 class="menu-card-title">- Panggung -</h3>
           <p class="menu-card-price">IDR 20k</p>
         </div>
         <div class="menu-card">
           <img src="img/menu/1.jpg" alt="Espresso" class="menu-card-img" />
-          <h3 class="menu-card-title">- Espresso -</h3>
+          <h3 class="menu-card-title">- Alat Band -</h3>
           <p class="menu-card-price">IDR 20k</p>
         </div>
         <div class="menu-card">
           <img src="img/menu/1.jpg" alt="Espresso" class="menu-card-img" />
-          <h3 class="menu-card-title">- Espresso -</h3>
+          <h3 class="menu-card-title">- Live Streaming Vidio  -</h3>
           <p class="menu-card-price">IDR 20k</p>
         </div>
-        <div class="menu-card">
-          <img src="img/menu/1.jpg" alt="Espresso" class="menu-card-img" />
-          <h3 class="menu-card-title">- Espresso -</h3>
-          <p class="menu-card-price">IDR 20k</p>
+      </div> -->
+      <div class="product-card">
+        <div class="container">
+          <div class="wrapper">
+            <div class="banner-image">
+              <img src="img/menu/5.jpg" alt="product-card1">
+            </div>
+            <h1>Sound Sytem</h1>
+            <p>
+              Lorem ipsum dolor sit amet, <br />
+              consectetur adipiscing elit.
+            </p>
+          </div>
         </div>
-        <div class="menu-card">
-          <img src="img/menu/1.jpg" alt="Espresso" class="menu-card-img" />
-          <h3 class="menu-card-title">- Espresso -</h3>
-          <p class="menu-card-price">IDR 20k</p>
+        <div class="container">
+          <div class="wrapper">
+            <div class="banner-image">
+              <img src="img/menu/Lighting.jpg" alt="product-card2">
+            </div>
+            <h1>Lighting</h1>
+            <p>
+              Lorem ipsum dolor sit amet, <br />
+              consectetur adipiscing elit.
+            </p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="wrapper">
+            <div class="banner-image">
+              <img src="img/menu/genset.jpg" alt="product-card3">
+            </div>
+            <h1>Genset</h1>
+            <p>
+              Lorem ipsum dolor sit amet, <br />
+              consectetur adipiscing elit.
+            </p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="wrapper">
+            <div class="banner-image"></div>
+            <h1>Panggung</h1>
+            <p>
+              Lorem ipsum dolor sit amet, <br />
+              consectetur adipiscing elit.
+            </p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="wrapper">
+            <div class="banner-image"></div>
+            <h1>Video Live Streming</h1>
+            <p>
+              Lorem ipsum dolor sit amet, <br />
+              consectetur adipiscing elit.
+            </p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="wrapper">
+            <div class="banner-image"></div>
+            <h1>Wedding Package</h1>
+            <p>
+              Lorem ipsum dolor sit amet, <br />
+              consectetur adipiscing elit.
+            </p>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- Menu Section End -->
+
+    <!-- produk Section start -->
+    <section class="products" id="products">
+      <h2><span>Price List</span> Kami</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sed
+        corrupti quasi ipsum. Veritatis, sequi?
+      </p>
+      <!-- <div class="row">
+        <div class="product-card">
+          <div class="product-icon">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/product/product_1.jpg" alt="product 1" />
+          </div>
+          <div class="product-content">
+            <h3>Coffe kenangan</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+          </div>
+          <div class="product-price">IDR 30K <span>IDR 55K</span></div>
+        </div>
+        <div class="product-card">
+          <div class="product-icon">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#"  class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/product/product_1.jpg" alt="product 1" />
+          </div>
+          <div class="product-content">
+            <h3>Coffe kenangan</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+          </div>
+          <div class="product-price">IDR 30K <span>IDR 55K</span></div>
+        </div>
+        <div class="product-card">
+          <div class="product-icon">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/product/product_1.jpg" alt="product 1" />
+          </div>
+          <div class="product-content">
+            <h3>Coffe kenangan</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+          </div>
+          <div class="product-price">IDR 30K <span>IDR 55K</span></div>
+        </div>
+      </div> -->
+    </section>
+    <!-- produk Section End -->
+
+    <!-- PriceList Section Start -->
+    <div class="cont s--inactive">
+      <!-- cont inner start -->
+      <div class="cont__inner">
+        <!-- el start -->
+        <div class="el">
+          <div class="el__overflow">
+            <div class="el__inner">
+              <div class="el__bg"></div>
+              <div class="el__preview-cont">
+                <h2 class="el__heading">DANGDUT FULL LIVE</h2>
+              </div>
+              <div class="el__content">
+                <div class="el__text">Dangdut Full Live</div>
+                <div class="pricelist">
+                  <li>Sound Systme Line Array 20.000 watt</li>
+                  <li>Panggung 8x6 & Cover Sound</li>
+                  <li>Peralatan Musik Full Set</li>
+                  <li>Lighting Full Set</li>
+                  <li>Live Streaming 4 Camera</li>
+                  <li>Singer 6 & MC Musik 1</li>
+                  <li>Genset 2 unit</li>
+                  <h2>RP.30.000.000 Full Pack</h2>
+                  <p>
+                    Ingin sesuaiakan dengan event mu atau mengundang bintang
+                    tamu? Konsultasi dengan admin kami agar mensukseskan acara
+                    anda !!
+                  </p>
+                </div>
+                <button class="btn-price" role="button">Order Now</button>
+                <div class="el__close-btn"></div>
+              </div>
+            </div>
+          </div>
+          <div class="el__index">
+            <div class="el__index-back">1</div>
+            <div class="el__index-front">
+              <div class="el__index-overlay" data-index="1">1</div>
+            </div>
+          </div>
+        </div>
+        <!-- el end -->
+        <!-- el start -->
+        <div class="el">
+          <div class="el__overflow">
+            <div class="el__inner">
+              <div class="el__bg"></div>
+              <div class="el__preview-cont">
+                <h2 class="el__heading">DANGDUT SEMI LIVE</h2>
+              </div>
+              <div class="el__content">
+                <div class="el__text">BAND AMBYAR LIVE</div>
+                <div class="pricelist">
+                  <li>Sound Systme Line Array 10.00 Watt</li>
+                  <li>Panggung 8x6 & Cover Sound</li>
+                  <li>Peralatan Musik FUll Sett</li>
+                  <li>Lighting Semi Set</li>
+                  <li>Live Streaming 3 Camera</li>
+                  <li>Singer 5 & MC Musik 1</li>
+                  <li>Genset 1 unit</li>
+                  <h2>RP.15.000.000 Full Pack</h2>
+                  <p>
+                    Ingin sesuaiakan dengan event mu atau mengundang bintang
+                    tamu? Konsultasi dengan admin kami agar mensukseskan acara
+                    anda !!
+                  </p>
+                </div>
+                <div class="el__close-btn"></div>
+              </div>
+            </div>
+          </div>
+          <div class="el__index">
+            <div class="el__index-back">2</div>
+            <div class="el__index-front">
+              <div class="el__index-overlay" data-index="2">2</div>
+            </div>
+          </div>
+        </div>
+        <!-- el end -->
+        <!-- el start -->
+        <div class="el">
+          <div class="el__overflow">
+            <div class="el__inner">
+              <div class="el__bg"></div>
+              <div class="el__preview-cont">
+                <h2 class="el__heading">ORGAN TUNGGAL 1</h2>
+              </div>
+              <div class="el__content">
+                <div class="el__text">ORGAN TUNGGAL 1</div>
+                <div class="el__close-btn"></div>
+              </div>
+            </div>
+          </div>
+          <div class="el__index">
+            <div class="el__index-back">3</div>
+            <div class="el__index-front">
+              <div class="el__index-overlay" data-index="3">3</div>
+            </div>
+          </div>
+        </div>
+        <!-- el end -->
+        <!-- el start -->
+        <div class="el">
+          <div class="el__overflow">
+            <div class="el__inner">
+              <div class="el__bg"></div>
+              <div class="el__preview-cont">
+                <h2 class="el__heading">ORGAN TUNGGAL 2</h2>
+              </div>
+              <div class="el__content">
+                <div class="el__text">Waterfall</div>
+                <div class="el__close-btn"></div>
+              </div>
+            </div>
+          </div>
+          <div class="el__index">
+            <div class="el__index-back">4</div>
+            <div class="el__index-front">
+              <div class="el__index-overlay" data-index="4">4</div>
+            </div>
+          </div>
+        </div>
+        <!-- el end -->
+        <!-- el start -->
+        <!-- <div class="el">
+          <div class="el__overflow">
+            <div class="el__inner">
+              <div class="el__bg"></div>
+              <div class="el__preview-cont">
+                <h2 class="el__heading">Forest</h2>
+              </div>
+              <div class="el__content">
+                <div class="el__text">Forest</div>
+                <div class="el__close-btn"></div>
+              </div>
+            </div>
+          </div>
+          <div class="el__index">
+            <div class="el__index-back">5</div>
+            <div class="el__index-front">
+              <div class="el__index-overlay" data-index="5">5</div>
+            </div>
+          </div>
+        </div> -->
+        <!-- el end -->
+      </div>
+      <!-- cont inner end -->
+    </div>
+    <!-- PriceList Section End -->
 
     <!-- Kontak Section Start -->
     <section id="contact" class="contact">
@@ -178,6 +524,36 @@
       </div>
     </footer>
     <!-- footer End -->
+
+    <!-- modal Box Item Detail Start -->
+    <div class="modal" id="item-detail-modal">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/product/product_1.jpg" alt="product 1" />
+          <div class="product-content">
+            <h3>Product 1</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Quibusdam saepe error ex facere expedita aspernatur aut repellat
+              ad placeat doloribus. Quod expedita incidunt aliquid iste?
+            </p>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 30K <span>IDR 55K</span></div>
+            <a href="#"><i data-feather="shopping-cart"></i> <span>add to cart</span> </a>
+          </div>
+        </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal Box Item Detail End -->
 
     <!-- featres icon -->
     <script>
